@@ -6,8 +6,7 @@ console.log(withSal)
 
 console.log(`The third pet is named ${petNames[2]}.`)
 
-let withSalLength = withSal.length
-console.log('The array has', withSalLength, 'names in it.')
+console.log(`The array has ${withSal.length} names in it.`)
 
 withSal.pop()
 console.log(withSal)
